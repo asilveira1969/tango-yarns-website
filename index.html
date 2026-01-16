@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tango Yarns | Hand-Dyed 100% Wool Artisan Yarns</title>
+    <meta name="description" content="Exclusive retail store for artisan 100% wool yarns, hand-spun and hand-dyed. Complete catalog of colors and lines for knitters and specialty stores.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inicio">Tango Yarns</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Home</a></li>
+                <li><a href="#catalogo" class="nav-link">Catalog</a></li>
+                <li><a href="#distribuidores" class="nav-link">Retail Stores</a></li>
+                <li><a href="#contacto" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Home -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <h1 class="hero-title">Tango Yarns</h1>
+            <p class="hero-subtitle">Hand-Dyed 100% Wool Artisan Yarns</p>
+            <p class="hero-description">Exclusive hand-spun and hand-dyed yarns, designed especially for hand knitting. Discover our unique collection of natural and warm colors.</p>
+            <div class="hero-buttons">
+                <a href="#catalogo" class="btn btn-primary">View Catalog</a>
+                <a href="#distribuidores" class="btn btn-secondary">Retail Stores</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>At Tango Yarns, we are dedicated to creating artisan yarns of the highest quality. Each skein is 100% natural wool, completely hand-spun and hand-dyed, guaranteeing a unique texture and unrepeatable colors.</p>
+                    <p>Our yarns are designed exclusively for hand knitting, offering knitters and specialty stores a unique experience working with premium materials.</p>
+                    <p>Each product line features a wide range of colors inspired by nature: earth tones, woods, spring and autumn colors that invite warmth and creativity.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🧶</span>
+                        <h3>100% Natural Wool</h3>
+                        <p>Materials of the highest quality</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎨</span>
+                        <h3>Artisan Dyeing</h3>
+                        <p>Each color is unique and special</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✨</span>
+                        <h3>Handmade</h3>
+                        <p>Traditional artisan process</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="section section-alt" id="catalogo">
+        <div class="container">
+            <h2 class="section-title">Our Catalog</h2>
+            <p class="section-subtitle">Explore our yarn lines and discover the wide range of colors available</p>
+            
+            <!-- Line Filters -->
+            <div class="catalog-filters">
+                <button class="filter-btn active" data-filter="all">All Lines</button>
+                <button class="filter-btn" data-filter="clasica">Classic Line</button>
+                <button class="filter-btn" data-filter="primavera">Spring Line</button>
+                <button class="filter-btn" data-filter="otono">Autumn Line</button>
+                <button class="filter-btn" data-filter="naturaleza">Nature Line</button>
+            </div>
+
+            <!-- Product Gallery -->
+            <div class="catalog-grid" id="catalog-grid">
+                <!-- Example products - These can be duplicated and modified -->
+                <div class="yarn-item" data-line="clasica">
+                    <div class="yarn-image">
+                        <img src="images/A1-6.jpg" alt="Classic Yarn - Color 001" loading="lazy">
+                        <div class="yarn-overlay">
+                            <button class="yarn-zoom" data-image="images/A1-6.jpg">🔍 View Detail</button>
+                        </div>
+                    </div>
+                    <div class="yarn-info">
+                        <span class="yarn-line">Classic Line</span>
+                        <span class="yarn-code">TY-CL-001</span>
+                    </div>
+                </div>
+
+                <div class="yarn-item" data-line="clasica">
+                    <div class="yarn-image">
+                        <img src="images/A5-12.jpg" alt="Classic Yarn - Color 002" loading="lazy">
+                        <div class="yarn-overlay">
+                            <button class="yarn-zoom" data-image="images/A5-12.jpg">🔍 View Detail</button>
+                        </div>
+                    </div>
+                    <div class="yarn-info">
+                        <span class="yarn-line">Classic Line</span>
+                        <span class="yarn-code">TY-CL-002</span>
+                    </div>
+                </div>
+
+                <div class="yarn-item" data-line="primavera">
+                    <div class="yarn-image">
+                        <img src="images/A11-1-Photoroom.jpg" alt="Spring Yarn - Color 001" loading="lazy">
+                        <div class="yarn-overlay">
+                            <button class="yarn-zoom" data-image="images/A11-1-Photoroom.jpg">🔍 View Detail</button>
+                        </div>
+                    </div>
+                    <div class="yarn-info">
+                        <span class="yarn-line">Spring Line</span>
+                        <span class="yarn-code">TY-PR-001</span>
+                    </div>
+                </div>
+
+                <div class="yarn-item" data-line="primavera">
+                    <div class="yarn-image">
+                        <img src="images/A14-10.jpg" alt="Spring Yarn - Color 002" loading="lazy">
+                        <div class="yarn-overlay">
+                            <button class="yarn-zoom" data-image="images/A14-10.jpg">🔍 View Detail</button>
+                        </div>
+                    </div>
+                    <div class="yarn-info">
+                        <span class="yarn-line">Spring Line</span>
+                        <span class="yarn-code">TY-PR-002</span>
+                    </div>
+                </div>
+
+                <div class="yarn-item" data-line="otono">
+                    <div class="yarn-image">
+                        <img src="images/A48-06.jpg" alt="Autumn Yarn - Color 001" loading="lazy">
+                        <div class="yarn-overlay">
+                            <button class="yarn-zoom" data-image="images/A48-06.jpg">🔍 View Detail</button>
+                        </div>
+                    </div>
+                    <div class="yarn-info">
+                        <span class="yarn-line">Autumn Line</span>
+                        <span class="yarn-code">TY-OT-001</span>
+                    </div>
+                </div>
+
+                <div class="yarn-item" data-line="naturaleza">
+                    <div class="yarn-image">
+                        <img src="images/A58-08.jpg" alt="Nature Yarn - Color 001" loading="lazy">
+                        <div class="yarn-overlay">
+                            <button class="yarn-zoom" data-image="images/A58-08.jpg">🔍 View Detail</button>
+                        </div>
+                    </div>
+                    <div class="yarn-info">
+                        <span class="yarn-line">Nature Line</span>
+                        <span class="yarn-code">TY-NT-001</span>
+                    </div>
+                </div>
+
+                <!-- Note: You can add more products by copying the yarn-item block and changing the data -->
+            </div>
+
+            <div class="catalog-note">
+                <p>💡 <strong>Note:</strong> This is a sample catalog. You can add as many products as you need following the same format. Each line can have 45+ colors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox for images -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <img src="" alt="" id="lightbox-image">
+            <div class="lightbox-info" id="lightbox-info"></div>
+        </div>
+    </div>
+
+    <!-- Retail Stores Section -->
+    <section class="section" id="distribuidores">
+        <div class="container">
+            <h2 class="section-title">Our Retail Stores</h2>
+            <p class="section-subtitle">Find the official Tango Yarns retail store in your region</p>
+            
+            <div class="distributors-grid">
+                <!-- Region: California -->
+                <div class="distributor-region">
+                    <h3 class="region-title">🇺🇸 California</h3>
+                    <div class="distributor-item">
+                        <h4>Main Retail Store</h4>
+                        <p><strong>Name:</strong> [Retail Store Name]</p>
+                        <p><strong>Email:</strong> [email@example.com]</p>
+                        <p><strong>Phone:</strong> [+1 XXX XXX XXXX]</p>
+                        <p><strong>Region:</strong> All of California</p>
+                    </div>
+                </div>
+
+                <!-- Region: Maryland -->
+                <div class="distributor-region">
+                    <h3 class="region-title">🇺🇸 Maryland</h3>
+                    <div class="distributor-item">
+                        <h4>Main Retail Store</h4>
+                        <p><strong>Name:</strong> [Retail Store Name]</p>
+                        <p><strong>Email:</strong> [email@example.com]</p>
+                        <p><strong>Phone:</strong> [+1 XXX XXX XXXX]</p>
+                        <p><strong>Region:</strong> All of Maryland</p>
+                    </div>
+                </div>
+
+                <!-- Region: New Jersey -->
+                <div class="distributor-region">
+                    <h3 class="region-title">🇺🇸 New Jersey</h3>
+                    <div class="distributor-item">
+                        <h4>Main Retail Store</h4>
+                        <p><strong>Name:</strong> [Retail Store Name]</p>
+                        <p><strong>Email:</strong> [email@example.com]</p>
+                        <p><strong>Phone:</strong> [+1 XXX XXX XXXX]</p>
+                        <p><strong>Region:</strong> All of New Jersey</p>
+                    </div>
+                </div>
+
+                <!-- Region: New York -->
+                <div class="distributor-region">
+                    <h3 class="region-title">🇺🇸 New York</h3>
+                    <div class="distributor-item">
+                        <h4>Main Retail Store</h4>
+                        <p><strong>Name:</strong> [Retail Store Name]</p>
+                        <p><strong>Email:</strong> [email@example.com]</p>
+                        <p><strong>Phone:</strong> [+1 XXX XXX XXXX]</p>
+                        <p><strong>Region:</strong> All of New York</p>
+                    </div>
+                </div>
+
+                <!-- Region: Connecticut -->
+                <div class="distributor-region">
+                    <h3 class="region-title">🇺🇸 Connecticut</h3>
+                    <div class="distributor-item">
+                        <h4>Main Retail Store</h4>
+                        <p><strong>Name:</strong> [Retail Store Name]</p>
+                        <p><strong>Email:</strong> [email@example.com]</p>
+                        <p><strong>Phone:</strong> [+1 XXX XXX XXXX]</p>
+                        <p><strong>Region:</strong> All of Connecticut</p>
+                    </div>
+                </div>
+
+                <!-- Region: Other States -->
+                <div class="distributor-region">
+                    <h3 class="region-title">🇺🇸 Other States</h3>
+                    <div class="distributor-item">
+                        <p>If you are interested in becoming a retail store in your state or region, please contact us through the contact form.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">Are you a store owner or interested in selling our yarns? Contact us</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <h3>Email</h3>
+                        <p>info@tangoyarns.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <h3>Phone</h3>
+                        <p>+XXX XXX XXX XXX</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌍</span>
+                        <h3>International Distribution</h3>
+                        <p>We serve retail stores in Latin America and Spain</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Full Name *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo">Inquiry Type *</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value="">Select an option</option>
+                            <option value="distribuidor">I want to be a Retail Store</option>
+                            <option value="tienda">I am a Store Owner</option>
+                            <option value="informacion">Request Information</option>
+                            <option value="otro">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Phone</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pais">Country/Region *</label>
+                        <input type="text" id="pais" name="pais" required placeholder="e.g., Spain, Argentina, Mexico...">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Message *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Tell us about your interest in our yarns..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tango Yarns</h3>
+                    <p>100% wool artisan yarns, hand-spun and hand-dyed. For knitters and specialty stores around the world.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#inicio">Home</a></li>
+                        <li><a href="#catalogo">Catalog</a></li>
+                        <li><a href="#distribuidores">Retail Stores</a></li>
+                        <li><a href="#contacto">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#inicio">About Us</a></li>
+                        <li><a href="#distribuidores">Become a Retail Store</a></li>
+                        <li><a href="#contacto">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tango Yarns. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
